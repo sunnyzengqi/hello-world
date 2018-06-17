@@ -1,3 +1,6 @@
+/**
+ *	上传文件client端
+ */
 package main
 
 import (
@@ -22,7 +25,7 @@ func postFile(filename string, targetUrl string) error {
 	}
 
 	//打开文件句柄操作
-	fh, err := os.Open("/Users/didi/Desktop/"+filename)
+	fh, err := os.Open("/Users/didi/Desktop/" + filename)
 	if err != nil {
 		fmt.Println("error opening file")
 		return err
