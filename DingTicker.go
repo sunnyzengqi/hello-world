@@ -31,7 +31,7 @@ type content struct{
 	Content string  `json:"content"`
 }
 
-var url = "https://oapi.dingtalk.com/robot/send?access_token=2b589ffbcecc1eb0ea60056af076f534157bde41604dae0cc13f5a656db2d05c"
+var url = "https://oapi.dingtalk.com/robot/send?access_token=53018592697e640972884834a38383dc4823da083a34691117f0f81e173eb678"
 
 var index = 1
 var turnMap = [7]string{"双渤","逸轩","魏超","刘冰","曾奇","朝晖","晨涛"}

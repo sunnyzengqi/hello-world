@@ -2,7 +2,9 @@
 # go默认使用go1.4
 # 如果需要使用go1.6 ，请打开下面两行注释：
 
-export GOROOT=/usr/local/go
+#export GOROOT=/usr/local/go
+#服务器上
+export GOROOT=/usr/lib/golang
 export PATH=$GOROOT/bin:$PATH
 
 workspace=$(cd $(dirname $0) && pwd -P)
